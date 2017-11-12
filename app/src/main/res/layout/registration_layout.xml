@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:text="UID"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/uidNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="2222 2222 2222 2222"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Name"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Saikiran K. Sondarkar"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Enter PIN code "
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:textSize="15sp"
+        android:inputType="numberPassword"
+        android:hint="Four digit Secret PIN"
+        android:padding="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "644571097047",
+    "firebase_url": "https://bob-hackathon.firebaseio.com",
+    "project_id": "bob-hackathon",
+    "storage_bucket": "bob-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644571097047:android:4dd1a446ba207def",
+        "android_client_info": {
+          "package_name": "xyz.nvrsettle.bobsmartaadhar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644571097047-81jceum5dfhgos601fsq3tqbvsc5gagk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnovNfOHrf-5UPDXNVPCvn8_osOZeqA-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
